@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment1.HomeController">
+   <children>
+      <Text fill="WHITE" layoutX="225.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classes list" wrappingWidth="149.962890625">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Button onAction="#goToForm" layoutX="422.0" layoutY="83.0" mnemonicParsing="false" text="Add new class" />
+      <ListView fx:id="listView" layoutX="55.0" layoutY="122.0" prefHeight="200.0" prefWidth="481.0" />
+   </children>
+</AnchorPane>
