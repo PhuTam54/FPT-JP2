@@ -17,13 +17,13 @@ import java.util.ResourceBundle;
 
 public class HomeController implements Initializable{
     public static ObservableList<ClassRoom> listClasses = FXCollections.observableArrayList();
-
     public ListView<ClassRoom> listView;
     public static ClassRoom editClass;
 
     public void goToForm(ActionEvent actionEvent) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("form.fxml"));
         Main.mainStage.setScene(new Scene(root,600, 400));
+
     }
 
     @Override
@@ -31,9 +31,9 @@ public class HomeController implements Initializable{
         listView.setItems(listClasses);
     }
 
-    public void goToEditStudent(MouseEvent mouseEvent) throws IOException {
+    public void goToEditForm(MouseEvent mouseEvent) throws IOException {
         editClass = listView.getSelectionModel().getSelectedItem();
         Parent root = FXMLLoader.load(getClass().getResource("editForm.fxml"));
-        javafx.Main.mainStage.setScene(new Scene(root, 600, 400));
+        Main.mainStage.setScene(new Scene(root, 600, 400));
     }
 }

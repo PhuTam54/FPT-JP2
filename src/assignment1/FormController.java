@@ -1,13 +1,13 @@
 package assignment1;
 
-import javafx.Main;
-import javafx.Student;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
+
+import java.util.Objects;
 
 public class FormController {
     public TextField txtName;
@@ -19,7 +19,7 @@ public class FormController {
         String room = txtRoom.getText();
         String course = txtCourse.getText();
         try {
-            for (ClassRoom c: assignment1.HomeController.listClasses) {
+            for (ClassRoom c: HomeController.listClasses) {
                 if (c.getName().equals(name))
                     throw new Exception("Ten lop da ton tai");
             }

@@ -35,10 +35,6 @@ public final class ClassRoom {
 
     @Override
     public String toString() {
-        return "ClassRoom{" +
-                "name='" + name + '\'' +
-                ", room='" + room + '\'' +
-                ", course='" + course + '\'' +
-                '}';
+        return "Class: " + name + " - Room: " + room + " - Course: " + course;
     }
 }
