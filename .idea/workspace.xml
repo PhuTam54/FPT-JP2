@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3014f756-ff97-414c-86f8-898c110d9dfb" name="Changes" comment="Initialize">
-      <change afterPath="$PROJECT_DIR$/src/assignment1/EditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment1/editform.fxml" afterDir="false" />
+    <list default="true" id="3014f756-ff97-414c-86f8-898c110d9dfb" name="Changes" comment="Update assignment 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/ClassRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/ClassRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/FormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javafx/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/javafx/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment1/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/EditController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685270067241</updated>
-      <workItem from="1685270068262" duration="7064000" />
+      <workItem from="1685270068262" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1685270269412</created>
@@ -91,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685270269412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update assignment 1">
+      <created>1685289348990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685289348990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize" />
+    <MESSAGE value="Update assignment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update assignment 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
